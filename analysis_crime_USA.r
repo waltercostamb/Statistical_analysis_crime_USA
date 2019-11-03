@@ -240,8 +240,3 @@ pairwise.wilcox.test(x=crime_marshall$homicides_percapita, g = crime_marshall$re
                      p.adjust.method = "bonferroni")
 #Results: no groups are significant; some comp. cannot be seen (same error from above)
 
-#MANOVA#######################################################################################
-#Just to learn how to implement MANOVA (Mehrfaktorielle Varianz Analysis ohne Messwiederholung)
-#I will take two independent variables (year and city) and see how they influence my
-#dependent variable (homicide rate)
-
